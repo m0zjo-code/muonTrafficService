@@ -18,10 +18,12 @@ Conda can install these as follows:
 
 The following configuration is required by the user.
 Setting the node name (NODE_NAME) - this is used to identify your data within the database.
-```python
-  The default in the script is: 
+The default in the script is:
+```python 
   NODE_NAME = "NoNameSet"
-  You can set this to something else you like, e.g.:
+```
+You can set this to something else you like, e.g.:
+```python
   NODE_NAME = "M0ZJO_DETECTOR_0"
 ```
 If you do not select a name - a random one will be generated for you.
